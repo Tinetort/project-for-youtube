@@ -4,13 +4,13 @@ import './Hero.css'
 const Hero = () => {
     return (
         <div className="hero">
-            <div className="container">
+            <div className="content">
                 <h1>Find the perfect place</h1>
                 <p className="search-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Neque, tempora!
                 </p>
-                <form className="form">
+                <form className="search">
                     <div>
                         <input type="text" placeholder="Enter keyword..." />
                     </div>
